@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    name: SpringBoot_Demo
+    url: jdbc:mysql://localhost:3306/Agile_Project
+    username: root
+    password: 781924851lcc
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart.max-file-size: 100MB
+    multipart.max-request-size: 1000MB
+
+

@@ -1,0 +1,7 @@
+#
+#Sun Feb 06 00:41:17 CST 2022
+com.example.agile_project.controller.UserController=org.springframework.stereotype.Component
+com.example.agile_project.service.impl.BaiduAccessTokenServiceImpl=org.springframework.stereotype.Component
+com.example.agile_project.service.impl.ImageDetectionServiceImpl=org.springframework.stereotype.Component
+com.example.agile_project.service.impl.ImageSaveServiceImpl=org.springframework.stereotype.Component
+com.example.agile_project.AgileProjectApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
