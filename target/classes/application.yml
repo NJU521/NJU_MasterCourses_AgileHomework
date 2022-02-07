@@ -1,6 +1,6 @@
 spring:
   datasource:
-    name: SpringBoot_Demo
+    name: SpringBoot_Agile_Demo
     url: jdbc:mysql://localhost:3306/Agile_Project
     username: root
     password: 781924851lcc
