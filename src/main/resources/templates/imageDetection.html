@@ -9,20 +9,20 @@
 		<script src="../static/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<h1>欢迎来到驾驶检测界面</h1>
+		<h1>Welcome</h1>
 		<form method="post" action="http://localhost:8080/imageDetection" enctype="multipart/form-data">
 			<div class="form-group">
 				<label>File input and select a content service to use:</label>
 				<input type="file" name="exampleInputFile">
 			</div>
 			<label class="radio-inline">
-				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 驾驶行为分析
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> driver detect
 			</label>
 			<label class="radio-inline">
-				<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 人体流量分析
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> people detect
 			</label>
 			<label class="radio-inline">
-				<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 手势识别
+				<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> hands detect
 			</label>
 			<br><br>
 			<button type="submit" class="btn btn-primary" onclick="sendImage()">Submit</button>
